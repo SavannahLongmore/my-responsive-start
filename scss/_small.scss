@@ -18,7 +18,7 @@ body{
     color: $fontColor;
 }
 #headerWrapper {
-    background-color: #abc;
+    background-color: rgb(187, 189, 255);
     color: $secondaryColor;
 }
 header {
@@ -28,12 +28,13 @@ header {
     gap: 8px;
     h1 {
         margin: 0;
-        font-size: 1.2rem;
-        font-weight: $normalWeight;
+        font-size: 3rem;
+        font-family: "Dancing Script", cursive;
+        font-weight: 700;
     }
 }
 #navWrapper {
-    background-color: blue;
+    background-color: rgb(15, 15, 64);
 }
 nav {
     ul {
@@ -43,18 +44,18 @@ nav {
         display: flex;
         li {flex: 1;}
     }
-    li.active { background-color: yellow;}
+    li.active { background-color: rgb(58, 42, 121);}
     a {
         display: block;
         padding: 0.75rem;
         color: white;
         text-align: center;
         text-decoration: none;
-        &:hover {color: pink;}
+        &:hover {color: rgb(166, 168, 247);}
     }}
     // beingging of footer
 #footerWrapper {
-    background-color: green;
+    background-color: rgb(187, 189, 255);
 }
 footer {
     padding: 0.5 rem $gutter;

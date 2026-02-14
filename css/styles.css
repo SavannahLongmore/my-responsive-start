@@ -319,8 +319,8 @@ body {
 }
 
 #headerWrapper {
-  background-color: #abc;
-  color: blue;
+  background-color: rgb(187, 189, 255);
+  color: rgb(15, 15, 64);
 }
 
 header {
@@ -331,12 +331,13 @@ header {
 }
 header h1 {
   margin: 0;
-  font-size: 1.2rem;
-  font-weight: 500;
+  font-size: 3rem;
+  font-family: "Dancing Script", cursive;
+  font-weight: 700;
 }
 
 #navWrapper {
-  background-color: blue;
+  background-color: rgb(15, 15, 64);
 }
 
 nav ul {
@@ -349,7 +350,7 @@ nav ul li {
   flex: 1;
 }
 nav li.active {
-  background-color: yellow;
+  background-color: rgb(58, 42, 121);
 }
 nav a {
   display: block;
@@ -359,11 +360,11 @@ nav a {
   text-decoration: none;
 }
 nav a:hover {
-  color: pink;
+  color: rgb(166, 168, 247);
 }
 
 #footerWrapper {
-  background-color: green;
+  background-color: rgb(187, 189, 255);
 }
 
 footer {
