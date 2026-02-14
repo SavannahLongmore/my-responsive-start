@@ -1,0 +1,66 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+/*  Apply a natural box layout model to all elements  */
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+} // end all elements
+
+body{
+    height: 100%;
+    font-family: $defaultFont;
+    font-weight: $normalWeight;
+    color: $fontColor;
+}
+#headerWrapper {
+    background-color: #abc;
+    color: $secondaryColor;
+}
+header {
+    display: flex;
+    align-items: flex-end;
+    padding: 1rem $gutter;
+    gap: 8px;
+    h1 {
+        margin: 0;
+        font-size: 1.2rem;
+        font-weight: $normalWeight;
+    }
+}
+#navWrapper {
+    background-color: blue;
+}
+nav {
+    ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        li {flex: 1;}
+    }
+    li.active { background-color: yellow;}
+    a {
+        display: block;
+        padding: 0.75rem;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        &:hover {color: pink;}
+    }}
+    // beingging of footer
+#footerWrapper {
+    background-color: green;
+}
+footer {
+    padding: 0.5 rem $gutter;
+    p {
+        margin: 0;
+        font-weight: $lightweight;
+        text-align: center;
+    }
+}
