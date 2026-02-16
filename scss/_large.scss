@@ -2,3 +2,34 @@ header, nav, main, footer {
     max-width: 60rem;
     margin: auto;
 }
+header {
+    .phone {
+  margin-left: auto;
+  text-decoration: none;
+}
+
+.phone-text {
+  display: block;
+  color: rgb(255, 255, 255);
+}
+
+.phone-icon {
+  display: none;
+}
+}
+nav {
+    ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+
+        display: flex;          // ← THIS makes desktop horizontal
+        flex-direction: row;    // ← add this to force row layout
+
+        li {
+            flex: 1;
+        }
+    }}
+ section {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
